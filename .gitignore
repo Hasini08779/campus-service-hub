@@ -1,0 +1,16 @@
+# Dependencies and generated builds
+node_modules/
+**/node_modules/
+frontend/dist/
+
+# Local environment files may contain credentials and signing secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Logs and OS metadata
+*.log
+.DS_Store
